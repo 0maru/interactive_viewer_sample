@@ -15,6 +15,7 @@ dependencies:
   flutter_state_notifier:
   freezed_annotation:
   state_notifier:
+  provider:
 
 dev_dependencies:
   flutter_test:

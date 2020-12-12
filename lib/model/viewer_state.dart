@@ -5,7 +5,10 @@ part 'viewer_state.freezed.dart';
 @freezed
 abstract class ViewerState with _$ViewerState {
   const factory ViewerState({
-    bool canTransform,
-    bool canScale,
+    bool transformEnable,
+    bool scaleEnable,
+    bool isScale,
+    bool isInteractionStart,
+    bool isInteractionEnd,
   }) = _ViewerState;
 }
